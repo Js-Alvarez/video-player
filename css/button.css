@@ -1,0 +1,27 @@
+.button{
+    inline-size: 32px; /*Es el grosor de la linea de la caja*/ 
+    block-size: 32px; /*Es el tamaño del alto de la caja*/
+    border: none;
+    background-color: transparent;
+    cursor: pointer; /*manito sobre boton*/
+}
+
+.button:active{ /*Seudo Clase*/
+    transform: scale(.9); 
+
+}
+#play{
+    background-image:url('/images/play.svg') ;
+}
+
+#pause{
+    background-image:url('/images/pause.svg') ;
+}
+
+#backward{
+    background-image:url('/images/-10.svg') ;
+}
+
+#forward{
+    background-image:url('/images/+10.svg') ;
+}
